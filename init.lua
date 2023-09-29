@@ -235,6 +235,7 @@ vim.o.hlsearch = false
 
 -- Make line numbers default
 vim.wo.number = true
+vim.wo.relativenumber = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
@@ -453,8 +454,12 @@ local servers = {
   -- gopls = {},
   -- pyright = {},
   -- rust_analyzer = {},
-  -- tsserver = {},
-  -- html = { filetypes = { 'html', 'twig', 'hbs'} },
+  tsserver = {},
+  html = { filetypes = { 'html', 'twig', 'hbs'} },
+  tailwindcss = {},
+  jsonls = {},
+  eslint = {},
+  volar = { filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'} },
 
   lua_ls = {
     Lua = {
