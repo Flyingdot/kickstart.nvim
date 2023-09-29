@@ -3,9 +3,4 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-	{ 'iamcco/markdown-preview.vim' },
-	{ 'hrsh7th/cmp-nvim-lsp-signature-help' },
-	{ 'hrsh7th/cmp-buffer' },
-	{ 'hrsh7th/cmp-path' },
-	{ 'prettier/vim-prettier', build = 'yarn install' }
 }
